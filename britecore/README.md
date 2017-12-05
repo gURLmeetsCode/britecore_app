@@ -2,6 +2,7 @@
 
 BriteCore Product Development Coding Challenge
 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -72,6 +73,8 @@ This will download the manifest for the python server and frontend client.
 
 
 From the terminal type:
+
+make sure you are in the britecore root folder before running npm start
 
 ```
 npm start
