@@ -1,0 +1,75 @@
+{
+  "name": "ProductDevelopmentProject",
+  "version": "1.0.0",
+  "description": "This outlines a recent problem we ran into and came up with a development solution for. We'd like to see how you would handle it. What is most important is gaining some insight into your development process and seeing how you work.",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack --config webpack.config.js --progress --colors",
+    "dev": "webpack-dev-server --hot --inline",
+    "prod": "webpack --config webpack.prod.config.js --progress",
+    "test": "jest"
+  },
+  "jest": {
+    "setupFiles": [
+      "./client/_tests_/jest.config.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "moduleNameMapper": {
+      "^.+\\.(css|scss)$": "identity-obj-proxy"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IntuitiveWebSolutions/ProductDevelopmentProject.git"
+  },
+  "keywords": [
+    "api",
+    "python",
+    "react",
+    "rest"
+  ],
+  "author": "Natasha Kelly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IntuitiveWebSolutions/ProductDevelopmentProject/issues"
+  },
+  "homepage": "https://github.com/IntuitiveWebSolutions/ProductDevelopmentProject#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.15.4",
+    "prop-types": "^15.5.10",
+    "react": "^16.1.0",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.1.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.25.0",
+    "babel-jest": "^21.2.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "enzyme-to-json": "^3.2.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^21.2.1",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "react-test-renderer": "^16.2.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.4",
+    "webpack-bundle-tracker": "^0.2.0",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-hot-middleware": "^2.18.2"
+  }
+}
