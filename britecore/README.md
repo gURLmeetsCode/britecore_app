@@ -59,7 +59,7 @@ Get a clone of the repo
 
 From terminal type:
 
-`git clone  https://github.com/IntuitiveWebSolutions/ProductDevelopmentProject.git`
+`git clone  https://github.com/gURLmeetsCode/britecore_app.git`
 
 cd into the project folder
 
